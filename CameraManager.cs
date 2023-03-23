@@ -5,12 +5,12 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     
-    public Transform playerTransform;
+    public Transform otherTransform;
 
 
     
     void LateUpdate()
     {
-        transform.position = new Vector3(playerTransform.position.x, 0, -10);
+        transform.position = new Vector3(otherTransform.position.x, 0, -10);
     }
 }

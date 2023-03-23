@@ -16,7 +16,7 @@ public class DiskManager : MonoBehaviour
     void FixedUpdate()
     {
 
-        diskRigidbody.AddForce(Vector2.left * diskHiz);  //sol (-1,0)
+        diskRigidbody.AddForce(Vector2.right * diskHiz);  //sol (-1,0)
 
 
 
