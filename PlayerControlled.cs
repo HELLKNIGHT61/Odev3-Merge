@@ -58,9 +58,9 @@ public class PlayerControlled : MonoBehaviour
     void Hareket()
     {
         x = SimpleInput.GetAxis("Horizontal");
-        Vector2 hareket = new Vector2(x * hareketHiz,_rigidbody.velocity.y);
+        Vector2 hareket_other = new Vector2(x * hareketHiz,_rigidbody.velocity.y);
 
-        _rigidbody.velocity = hareket;
+        _rigidbody.velocity = hareket_other;
 
         if(x < 0)
         {

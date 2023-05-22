@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
 
     public void yenidenOyna()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 2;
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
